@@ -1,0 +1,27 @@
+{
+  "method": "PT",
+  "multicore": false,
+  "num_processors": 0,
+  "golden_rows": true,
+  "add_base_path": true,
+  "dataset": "BM",
+  "dataset_path": "/data/autojoin-Benchmark/",
+  "output_path": "/output/",
+  "override": true,
+  "do_remaining": false,
+
+  "aj_subset_size": 2,
+  "aj_num_subset": 6,
+
+  "pt_params": {
+    "max_tokens": 3,
+    "max_blocks": 3,
+    "sample_size": [12, "5%", "20%"],
+    "generalize": false,
+    "token_splitters": [" "],
+    "remove_duplicate_patterns": true,
+    "switch_literals_placeholders": false,
+    "only_first_match": false,
+    "units_to_extract": ["LiteralPatternBlock", "PositionPatternBlock", "TokenPatternBlock", "SplitSubstrPatternBlock"]
+  }
+}
