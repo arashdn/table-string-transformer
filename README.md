@@ -3,7 +3,7 @@ This repository contains resources developed within the following paper:
 
     A. Dargahi Nobari, and D. Rafiei. “Efficiently Transforming Tables for Joinability”.
 	
-You may check the [paper](#) ([PDF](#)) or the [extended version](https://arxiv.org/abs/2111.09912) for more information.
+You may check the [paper](https://ieeexplore.ieee.org/document/9835195) ([PDF](http://arashdargahi.com/wp-content/uploads/Efficient-tr-icde-22.pdf)) or the [extended version](https://arxiv.org/abs/2111.09912) for more information.
 
 ## Requirements
 
@@ -43,3 +43,16 @@ The source files are located in `src` directory:
 ## Citation
 
 Please cite the paper, If you used the codes in this repository.
+
+```
+@INPROCEEDINGS{efficient.tr.2022,
+  author={Dargahi Nobari, Arash and Rafiei, Davood},
+  booktitle={2022 IEEE 38th International Conference on Data Engineering (ICDE)}, 
+  title={Efficiently Transforming Tables for Joinability}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1649-1661},
+  doi={10.1109/ICDE53745.2022.00169}
+  }
+```
